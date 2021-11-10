@@ -1,0 +1,34 @@
+
+
+Développeur Web
+Du 18/10/2021 au 04/02/2022
+Objectif : 
+
+>>>>>
+
+Maîtriser l'utilisation des logiciels de production et d'intégration multimédia
+
+- Savoir développer et sécuriser un site Web dynamique
+- Être capable de créer et d'exploiter une base de données en ligne
+- Acquérir des compétences en e-commerce pour créer un site marchand
+- Maîtriser le référencement 
+- Principes d'ergonomie.
+
+MYSQL
+
+mysql> CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
+mysql> FLUSH PRIVILEGES;
+
+Mysql 
+/Applications/MAMP/Library/bin/mysql -uroot -proot
+
+https://ncode.amorce.org/parcours/130/6231
+https://ncode.amorce.org/ressources/Pool/D2WM_HB/CMS_Modules/plugin.html
+https://ncode.amorce.org/ressources/Pool/D2WM_HB/CMS_Referencement/referencement.html
+http://rpcnufrlkr.cluster006.ovh.net/mouny/creation-de-plugin-wordpress/
+https://ncode.amorce.org/parcours/130/6234
+
+
+JS
+https://codepen.io/ge1doot/pen/LkdOwj

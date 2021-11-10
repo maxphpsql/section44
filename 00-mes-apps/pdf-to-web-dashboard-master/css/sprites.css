@@ -1,0 +1,183 @@
+.arrow-left, .arrow-right, .article-icon, .avatar, .checkmark, .dropdown-button, .facebook-icon, .footer-up-arrow, .foursquare-icon, .header-help-icon, .header-settings-icon, .icon-analytics-active, .icon-analytics, .icon-customers, .icon-customers-active, .icon-dashboard-active, .icon-dashboard, .icon-messages-active, .icon-messages, .icon-page-creator-active, .icon-page-creator, .icon-promotions-active, .icon-promotions, .next-page, .prev-page, .separator, .tip-icon, .twitter-icon, .youtube-icon, .checklist-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.arrow-left{
+	background-position: -169px -118px ;
+	width: 11px;
+	height: 18px;
+}
+
+.arrow-right{
+	background-position: -119px -119px ;
+	width: 11px;
+	height: 18px;
+}
+
+.article-icon{
+	background-position: -14px -108px ;
+	width: 19px;
+	height: 35px;
+}
+
+.avatar{
+	background-position: -354px -4px ;
+	width: 40px;
+	height: 40px;
+}
+
+.checkmark{
+	background-position: -217px -65px ;
+	width: 22px;
+	height: 21px;
+}
+
+.dropdown-button{
+	background-position: -72px -117px ;
+	width: 10px;
+	height: 6px;
+}
+
+.facebook-icon{
+	background-position: -64px -69px ;
+	width: 16px;
+	height: 16px;
+}
+
+.footer-up-arrow{
+	background-position: -170px -71px ;
+	width: 14px;
+	height: 9px;
+}
+
+.foursquare-icon{
+	background-position: -16px -71px ;
+	width: 16px;
+	height: 16px;
+}
+
+.header-help-icon{
+	background-position: -317px -26px ;
+	width: 20px;
+	height: 20px;
+}
+
+.header-settings-icon{
+	background-position: -264px -15px ;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-analytics-active{
+	background-position: -419px -14px ;
+	width: 42px;
+	height: 50px;
+}
+
+.icon-analytics{
+	background-position: -498px -401px ;
+	width: 60px;
+	height: 66px;
+}
+
+.icon-customers {
+	background-position: -498px -318px ;
+	width: 62px;
+	height: 64px;
+}
+
+.icon-customers-active{
+	background-position: -500px -258px ;
+	width: 62px;
+	height: 42px;
+}
+
+.icon-dashboard-active{
+	background-position: -500px -175px ;
+	width: 58px;
+	height: 58px;
+}
+
+.icon-dashboard{
+	background-position: -494px -86px ;
+	width: 60px;
+	height: 73px;
+}
+
+.icon-messages-active{
+	background-position: -495px -15px ;
+	width: 57px;
+	height: 48px;
+}
+
+.icon-messages{
+	background-position: -571px -364px ;
+	width: 60px;
+	height: 65px;
+}
+
+.icon-page-creator-active{
+	background-position: -582px -278px ;
+	width: 45px;
+	height: 50px;
+}
+
+.icon-page-creator{
+	background-position: -568px -187px ;
+	width: 60px;
+	height: 70px;
+}
+
+.icon-promotions-active{
+	background-position: -577px -115px ;
+	width: 50px;
+	height: 50px;
+}
+
+.icon-promotions{
+	background-position: -569px -15px ;
+	width: 60px;
+	height: 69px;
+}
+
+.next-page{
+	background-position: -216px -14px ;
+	width: 22px;
+	height: 22px;
+}
+
+.prev-page{
+	background-position: -160px -16px ;
+	width: 22px;
+	height: 22px;
+}
+
+.separator{
+	background-position: -115px -338px ;
+	width: 1px;
+	height: 20px;
+}
+
+.tip-icon{
+	background-position: -118px -10px ;
+	width: 14px;
+	height: 35px;
+}
+
+.twitter-icon{
+	background-position: -66px -18px ;
+	width: 16px;
+	height: 16px;
+}
+
+.youtube-icon{
+	background-position: -19px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.checklist-icon{
+	background-position: -215px -113px ;
+	width: 22px;
+	height: 32px;
+}

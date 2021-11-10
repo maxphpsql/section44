@@ -1,0 +1,114 @@
+MERCREDI 27 OCTOBRE
+
+Eco-système du développeur.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Le jargon du développeur
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+- Retro-engeenering *
+- Veille Technologique *
+- DEEPL *
+- GIT *
+- POO (php) *
+- MVC ( model view controller )  *
+- LINKEDIN
+- RESUME cv *
+- TP HTML CSS *
+- UX UI ( adobe xd - figma ) presentation *
+- Emulateur (linux). presentation 
+- FTP transfert de fichier 
+- code Js de 421
+- Framework php
+- Responsive
+- formulaire *
+- tableau *
+- menu css
+- php simple *
+- javascript 
+- photoshop
+- bootstrap
+- motools.Js *
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+raccourci clavier.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Visual Studio 
+
+! + entrèe = new file
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+git 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+git remote add origin git@github.com:maxphpsql/css25oct.git
+Mon git
+
+je verifie ma version si git est installé
+git --version
+
+git init 
+j'initialise mon git dans un repertoire de travail exemple mon repertoire css et html du moment
+
+git status
+je regarde si tous les fichiers sont referencés par git
+
+git add .
+j'ajoute mes fichiers non referencé par git
+
+par defaut je suis sur la branche Master on crée une nouvelle branche
+git branch -M "le_nom_de_branche_que_je_crée"
+
+
+je me connecte a github
+git remote add origin git@github.com:*********/*******.git
+
+je sauvegarde ou je crée une etiquette exemple "mon boulot a 15 hres du 26 octobre"
+git commit -m "mon boulot a 15 hres du 26 octobre"
+
+Je pousse mon travail sur mon depot github
+git push
+
+je verifie avec 
+Git status
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+end
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+pomme + tab = application.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+LES TABLEAUX.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Exercice : créer un tableau de 5 colonnes et 6 lignes
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+nom prenom telephone  adresse pays
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+exo 2 : tableau etudiant et formateur
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+exo 3 : sur le pdf cours tableau
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+JEUDI.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+. Responsive 
+. Les menus
+. Les formulaires 
+. Les Tableaux
+. Git 
+
+VENDREDI.
+
+. BOOTSTRAP 
+. Grids
+ lignes
+ (5tf9uo88Pari$iEn***$&@)75
+ https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html#menuhorizontal
+ https://ncode.amorce.org/ressources/Pool/TB/WEB_CSS_BOOTSTRAP/class_bs.html
+https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox

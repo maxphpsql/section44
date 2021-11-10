@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application-Dashboard</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sprites.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!--Header at top of page-->
+    <div class="row container-fluid" id="header">
+      <span>
+        <a href="#" id="top-bar-link">MINI of Raleigh</a> &nbsp;
+      </span>
+      <span class="separator"> &#x7c;</span>&nbsp;
+      <a href="#"><img src="img/header-help-icon.png" alt=""></a>&nbsp;
+      <span class="separator"> &#x7c;</span>&nbsp;
+      <a href="#"><img src="img/header-settings-icon.png" alt=""></a>
+    </div>
+
+    <!--Main menu near top of page-->
+    <div class="row container-fluid" id="menu">
+      <a href="#" class="menu-icons" id="active-icon"><div class="nav-icon-1 center-nav"><img src="img/active-page-marker.png" id="active" alt=""></div></a>
+      <a href="#" class="menu-icons"><div class="nav-icon-2 center-nav"></div></a>
+      <a href="#" class="menu-icons"><div class="nav-icon-3 center-nav"></div></a>
+      <a href="#" class="menu-icons"><div class="nav-icon-4 center-nav"></div></a>
+      <a href="#" class="menu-icons"><div class="nav-icon-5 center-nav"></div></a>
+      <a href="#" class="menu-icons"><div class="nav-icon-6 center-nav"></div></a>
+    </div>
+
+    <!--Dashboard with search bar-->
+    <div class="container col-lg-10 col-lg-offset-1 content">
+        <div class="row col-lg-12" id="dashboard">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" id="dashboard-label">Dashboard</div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12"></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12"></div>
+          <div class="search col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <span id="search-icon" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            <input id="search-box" type="text">
+          </div>
+        </div>
+
+        <!--Main content for page-->
+        <div class="row col-lg-12" id="main-content">
+          <div class="row" id="content-container">
+            <div class="col-lg-2 container-fluid" id="announcements">
+              ANNOUNCEMENTS
+            </div>
+            <div class="border3 col-lg-8">
+              Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
+            </div>
+            <div class="col-lg-2 arrow">
+              <a href="#"><img src="img/prev-page.png" alt=""></a> &nbsp;
+              <a href="#"><img src="img/next-page.png" alt=""></a>
+            </div>
+
+            <!--Lists of Tasks and Recommendations-->
+            <div class="border2 headings col-lg-4 col-md-6 container-fluid">
+                Tasks
+                <a href="#"><i id="tasks-icon" class="fa fa-cog"></i></a>
+                <div class="row task-options">
+                  <a href="#" class="options">
+                    <span class="numbered-options">1</span> Welcome Contacts
+                    <span class="contacts-box"><img src="img/human_profile.png" class="contact" alt=""> 32</span>
+                  </a>
+                </div>
+                <div class="row task-options">
+                  <a href="#" class="options"><span class="numbered-options">2</span> Provide Responses</a>
+                  <span class="contacts-box"><img src="img/human_profile.png" class="contact" alt=""> 36</span>
+                </div>
+                <div class="row task-options">
+                  <a href="#" class="options"><span class="numbered-options">3</span> Review Activity</a>
+                  <span class="contacts-box"><img src="img/human_profile.png" class="contact" alt=""> 36</span>
+                </div>
+                <div class="row task-options">
+                  <a href="#" class="options"><span class="numbered-options">4</span> Reach Out</a>
+                  <span class="contacts-box"><img src="img/human_profile.png" class="contact" alt=""> 3</span>
+                </div>
+              <div class="row container-fluid" id="recommendations">
+                Recommendations
+                  <div class="row recommendation-options">
+                    <img class="col-lg-2 article-icon" alt="">
+                    <div class="col-lg-10">
+                      <div class="recommendations-type">Article</div>
+                      <a href="#" class="grey-links">
+                        <div class="recommendations-headings">7 Steps to getting more fans</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row recommendation-options">
+                    <img class="col-lg-2 article-icon" alt="">
+                    <div class="col-lg-10">
+                      <div class="recommendations-type">Article</div>
+                      <a href="#" class="grey-links">
+                        <div class="recommendations-headings">Increase tranction with more interactions</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row recommendation-options">
+                    <img class="col-lg-2 checklist-icon" alt="">
+                    <div class="col-lg-10">
+                      <div class="recommendations-type">Checklist</div>
+                      <a href="#" class="grey-links">
+                        <div class="recommendations-headings">Creating a Promotion</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row recommendation-options">
+                    <img class="col-lg-2 tip-icon" alt="">
+                    <div class="col-lg-10">
+                      <div class="recommendations-type">Tip</div>
+                      <a href="#" class="grey-links">
+                        <div class="recommendations-headings">Share More</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!--Analytics section with bar graph, pie charts, dropbox, and checkboxes-->
+            <div class="border col-lg-8 col-md-6 col-sm-12 col-xs-12 container-fluid" id="analytics">
+              Analytics
+              <div class="row" id="activity">
+                <div class="col-lg-9">
+                  <div class="row activity-wrapper" id="activity-wrapper">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                    ACTIVITY
+                  </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                    <select id="date-options">
+                      <option>06/28/11 - 07/21/11</option>
+                      <option>06/28/11 - 07/21/11</option>
+                      <option>06/28/11 - 07/21/11</option>
+                      <option>06/28/11 - 07/21/11</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="row col-lg-12">
+                    <img src="img/graph.png" id="graph" alt="">
+                </div>
+                </div>
+                <!--Channels and referrals pie charts-->
+                <div class="col-lg-3 activity-wrapper" id="pie-charts">
+                  <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                    CHANNELS
+                    <div>
+                      <img src="img/channels-pie-chart.png" class="pie-charts" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-6 col-md-6 col-sm-6 col-xs-6">
+                    REFERRALS
+                    <div>
+                      <img src="img/referrals-pie-chart.png" class="pie-charts" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Social media checkboxes-->
+              <div class="col-lg-12" id="checkboxes">
+                <input type="checkbox" name="vehicle" value="">
+                <span class="social-media-label" id="facebook">
+                  Facebook
+                </span>
+                <input type="checkbox" name="vehicle" value="">
+                <span class="social-media-label" id="twitter">
+                  Twitter
+                </span>
+                <input type="checkbox" name="vehicle" value="">
+                <span class="social-media-label" id="foursquare">
+                  Foursquare
+                </span>
+                <input type="checkbox" name="vehicle" value="">
+                <span class="social-media-label" id="google">
+                  Google+
+                </span>
+              </div>
+            </div>
+
+            <!--Contains the contact and customer profiles and graphs-->
+            <div class="border col-lg-8 container-fluid" id="contact-graphs">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contact-graphs-border">
+                <div class="profile-boxes">
+                  <div>
+                    <img src="img/contacts-piece1.png" alt="">
+                  </div>
+                  <img src="img/contacts-piece4.png" class="banner-flag-left" alt="">
+                  <img src="img/contacts-piece2.png" class="banner-flag-right" alt="">
+                  <div class="banner">
+                    <span class="label-font">75 CONTACTS</span><br>
+                    <span class="influeneces-font">4 INFLUENCES</span>
+                  </div>
+                  <div>
+                    <img src="img/contacts-piece3.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="profile-boxes">
+                  <div>
+                    <img src="img/customers-piece1.png" alt="">
+                  </div>
+                  <img src="img/contacts-piece4.png" class="banner-flag-left" alt="">
+                  <img src="img/contacts-piece2.png" class="banner-flag-right" alt="">
+                  <div class="banner">
+                    <span class="label-font">17 CUSTOMERS</span><br>
+                    <span class="influeneces-font">0 INFLUENCES</span>
+                  </div>
+                  <div>
+                    <img src="img/customers-piece3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Contains the Did you know? section-->
+            <div class="border col-lg-8 container-fluid">
+                <div class="col-lg-12" id="did-you-know-box">
+                  <a href="#"><span id="arrow-left"><img src="img/arrow-left.png" alt=""></span></a>
+                  <a href="#"><span id="arrow-right"><img src="img/arrow-right.png" alt=""></span></a>
+                  <span id="did-you-know"> DID YOU KNOW? <br>
+                    Maecenas sed diam eget risus varius blandit sit amet non magna.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam porta sem malesuada magna mollis euismod.
+                  </span>
+                </div>
+            </div>
+
+            <!--Contains the promos with the pictures-->
+            <div class="col-lg-12 col-md-12" id="ads">
+              <div class="col-lg-4 col-md-4 ad-padding" id="promo1"><img src="img/promo1.png" class="ad-photos" alt=""></div>
+              <div class="col-lg-4 col-md-4 ad-padding" id="promo2"><img src="img/promo2.png" class="ad-photos" alt=""></div>
+              <div class="col-lg-4 col-md-4 ad-padding" id="promo3"><img src="img/promo3.png" class="ad-photos" alt=""></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    </div>
+
+    <!--Contains the footer menu-->
+    <div class="row container-fluid col-lg-12" id="footer-container">
+      <div class="col-lg-3 footer-padding" id="footer-menu">
+          <a href="#" class="grey-links">Tutorials</a>
+          <span class="separator">
+            &#x7c;
+          </span>
+          <a href="#" class="grey-links">Support</a>
+          <span class="separator">
+            &#x7c;
+          </span>
+          <a href="#" class="grey-links">Blog</a>
+          <img class="separator" alt="">
+      </div>
+
+      <!--Footer with information-->
+      <div class="col-lg-6 footer-padding" id="footer-info">
+          <span class="highlighted-text">Ariel Winter</span> likes your
+          <span class="highlighted-text">Win a Cooper Sweepstakes</span> promotion
+          <span id="navigate-up-arrow"><a href="#"><img src="img/footer-up-arrow.png" alt=""></a></span>
+      </div>
+      <div class="col-lg-3 col-md-12">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 footer-social" id="footer-logout">
+          <img src="img/avatar.png" id="avatar" alt="">
+          <a href="#" class="grey-links">Logout</a>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6 footer-social footer-padding">
+          <a href="#"><img src="img/facebook-icon.png" alt=""></a>
+          <a href="#"><img src="img/twitter-icon.png" alt=""></a>
+          <a href="#"><img src="img/foursquare-icon.png" alt=""></a>
+          <a href="#"><img src="img/youtube-icon.png" alt=""></a>
+        </div>
+        <div class="col-lg-3 footer-padding"></div>
+      </div>
+    </div>
+  </body>
+</html>

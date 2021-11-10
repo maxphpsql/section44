@@ -1,0 +1,35 @@
+2021-11-04T16:20:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-04T16:36:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-04T23:13:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-04T23:23:35+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-04T23:34:53+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+

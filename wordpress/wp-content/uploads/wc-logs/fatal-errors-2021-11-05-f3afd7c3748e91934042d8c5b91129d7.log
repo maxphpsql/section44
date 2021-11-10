@@ -1,0 +1,36 @@
+2021-11-05T00:01:12+00:00 CRITICAL Cannot redeclare EnvoThemes_Demo_Import() (previously declared in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/envothemes-demo-import.php:24) in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import 2/envothemes-demo-import.php on line 23
+
+2021-11-05T00:01:12+00:00 CRITICAL Cannot redeclare EnvoThemes_Demo_Import() (previously declared in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/envothemes-demo-import.php:24) in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import 2/envothemes-demo-import.php on line 23
+
+2021-11-05T00:01:13+00:00 CRITICAL Cannot redeclare EnvoThemes_Demo_Import() (previously declared in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/envothemes-demo-import.php:24) in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import 2/envothemes-demo-import.php on line 23
+
+2021-11-05T00:03:50+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-05T00:22:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-05T00:48:42+00:00 CRITICAL Cannot redeclare EnvoThemes_Demo_Import() (previously declared in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/envothemes-demo-import.php:24) in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import 2/envothemes-demo-import.php on line 23
+
+2021-11-05T01:18:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
+2021-11-05T01:18:26+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php:103
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1046): Envo_Demos_Helpers::wp_get_http('https://envothe...', '/Applications/M...')
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(1000): WP_Import->fetch_remote_file('https://envothe...', Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(743): WP_Import->process_attachment(Array, 'https://envothe...')
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php(134): WP_Import->process_posts in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/envothemes-demo-import/includes/panel/classes/importers/class-helpers.php on line 103
+
