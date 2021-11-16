@@ -8,11 +8,11 @@ Objectif :
 
 Maîtriser l'utilisation des logiciels de production et d'intégration multimédia
 
-- Savoir développer et sécuriser un site Web dynamique
-- Être capable de créer et d'exploiter une base de données en ligne
-- Acquérir des compétences en e-commerce pour créer un site marchand
-- Maîtriser le référencement 
-- Principes d'ergonomie.
+- Savoir développer et sécuriser un site Web dynamique (java - javascript - php - python - ruby on rail)
+- Être capable de créer et d'exploiter une base de données en ligne (mysql - phpmyadmin - heidisql)
+- Acquérir des compétences en e-commerce pour créer un site marchand.
+- Maîtriser le référencement ( meta ) 
+- Principes d'ergonomie ( adobe XD - Figma - ).
 
 MYSQL
 
