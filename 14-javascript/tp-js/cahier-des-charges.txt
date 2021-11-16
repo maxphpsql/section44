@@ -1,0 +1,7 @@
+
+Lundi 15 Nov 2021
+
+- changer le style (police, taille du texte, couleur.)
+- changer le contenu paragraphe.
+- tp 02 
+- site et formulaire (javascript).
