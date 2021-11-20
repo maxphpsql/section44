@@ -30,28 +30,29 @@
         <li id='l2'>Lorem ipsum dolor sit amet consectetur adi</li>
         <li id='l3'>Lorem ipsum dolor sit amet consectetur adi</li>
     </ul>
-
-
     <body>
         <script src="assets/js/jquery.3.6.0.js"></script>
-
         <script>
             // on peut travailler avec jquery pour led Dom
             $(document).ready(function () {
                 $('#b1').click(function () {
                     $('#p1').append('Texte ajouté avec append <br>');
                     $('#p1').css('color', 'red');
-                    $('body').css('background-color','white')
+                    // $('body').css('background-color','white')
                 });
                 $('#b2').click(function () {
                     $('#p4').prepend('Texte ajouté avec prepend <br>');
                     $('#p4').css('color', 'green');
-                    $('body').css('background-color','yellow')
+                    // $('body').css('background-color','yellow')
                 });
                 $('#b3').click(function () {
-                    $('#l1').append('<li>Texte ajouté avec append</li>');
-                    $('#l1').css('color', 'green');
-                    $('body').css('background-color','#ccc')
+                    //a tester plein de solution css 
+                    // $('#l1').append('<li id="lol" >Texte ajouté avec append</li>');
+                    // $('li#lol').css({"color":"green", "font-family":"verdana", "font-size":"50px"})
+                    $('#l1').append('<li style="background-color:green">Texte ajouté avec append</li>');
+                    //$('#lol').css("color", "green");
+                    // $('#l1').css('color', 'green');
+                    // $('body').css('background-color','#ccc')
                 });
                 // ici on peut ajouter et interagir avec le DOM du document.
             });
