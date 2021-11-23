@@ -1,0 +1,23 @@
+
+/* WORDPRESS */
+
+
+- plugin et modules - back office
+* Hamza
+* Jimmy
+* Alex
+* Vincent 
+* Marceline
+* Souleymane
+* Kevin
+* Junior Loic
+
+- Jarditou themes (challenge) Front office
+
+- revoir le theme wordpress les bases Front office
+* Alex x
+* Vincent x
+* Marceline x
+* Souleymane x
+* Kevin x
+* Junior Loic x
