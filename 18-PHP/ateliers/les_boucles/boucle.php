@@ -1,8 +1,6 @@
 <?php
 
-
 /* exemple 1 */
-
 $i = 1;
 while ($i <= 10) {
     /* afficher les opérations */
