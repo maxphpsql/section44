@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "htdocs/mysql/sejda-EOWEGJ.zip",
+			"uri": "zip:/?file:///Applications/MAMP/htdocs/mysql/sejda-EOWEGJ.zip"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htdocs"
+	}
+}

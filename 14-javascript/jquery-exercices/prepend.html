@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Jquery
+        </title>
+    </head>
+    <h1>test jquery</h1>
+    
+    <button id='b1'>
+        utilisation de append() ....</button>
+    <button id='b2'>
+        utilisation de prepend() ....</button>
+    <button id='b3'>
+        utilisation de append() dans une liste ....</button>
+    <p id='p1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iusto
+        quaerat nobis ratione autem,</p>
+    <p id='p2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iusto
+        quaerat nobis ratione autem,</p>
+    <p id='p3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iusto
+        quaerat nobis ratione autem,</p>
+    <p id='p4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iusto
+        quaerat nobis ratione autem,</p>
+
+    <ul>
+        <li id='l1'>Lorem ipsum dolor sit amet consectetur adi</li>
+        <li id='l2'>Lorem ipsum dolor sit amet consectetur adi</li>
+        <li id='l3'>Lorem ipsum dolor sit amet consectetur adi</li>
+    </ul>
+    <body>
+        <script src="assets/js/jquery.3.6.0.js"></script>
+        <script>
+            // on peut travailler avec jquery pour led Dom
+            $(document).ready(function () {
+                $('#b1').click(function () {
+                    $('#p1').append('Texte ajouté avec append <br>');
+                    $('#p1').css('color', 'red');
+                    // $('body').css('background-color','white')
+                });
+                $('#b2').click(function () {
+                    $('#p4').prepend('Texte ajouté avec prepend <br>');
+                    $('#p4').css('color', 'green');
+                    // $('body').css('background-color','yellow')
+                });
+                $('#b3').click(function () {
+                    //a tester plein de solution css 
+                    // $('#l1').append('<li id="lol" >Texte ajouté avec append</li>');
+                    // $('li#lol').css({"color":"green", "font-family":"verdana", "font-size":"50px"})
+                    $('#l1').append('<li style="background-color:green">Texte ajouté avec append</li>');
+                    //$('#lol').css("color", "green");
+                    // $('#l1').css('color', 'green');
+                    // $('body').css('background-color','#ccc')
+                });
+                // ici on peut ajouter et interagir avec le DOM du document.
+            });
+        </script>
+    </body>
+</html>
